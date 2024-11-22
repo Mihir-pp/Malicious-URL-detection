@@ -214,3 +214,106 @@ h2::after {
     to { opacity: 1; }
 }
 
+/* Features Section */
+.features-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 40px;
+    padding: 20px 0;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.feature-box {
+    flex: 0 1 250px;
+    background-color: #272424;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.feature-box:hover {
+    transform: translateY(-5px);
+}
+
+.feature-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.feature-text {
+    color: #3498db;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+/* Adjust existing container padding */
+.container {
+    padding: 30px;
+    max-width: 1200px; /* Increased to accommodate features */
+}
+
+/* Adjust existing form sizes */
+.row {
+    margin-bottom: 30px;
+}
+
+#form1, #form2 {
+    padding: 20px;
+}
+
+/* Prediction Results Box */
+#form2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px; /* Adjust this value to match the height of form1 */
+}
+
+/* URL Display */
+.right {
+    text-align: center;
+    color: #3498db;
+    word-break: break-all;
+    margin-bottom: 20px;
+    font-size: 16px;
+    width: 100%;
+}
+
+/* Prediction Text */
+#prediction {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 24px;
+    font-weight: 600;
+    color: #3498db;
+    width: 100%;
+}
+
+/* Button Group Container */
+.button-group {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Action Buttons */
+.button1, .button2 {
+    width: 80%; /* Reduced width for better appearance */
+    padding: 15px;
+    margin: 10px auto;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: none;
+}
+
